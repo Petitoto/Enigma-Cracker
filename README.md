@@ -7,7 +7,7 @@
 
 Enigma-Cracker is a cryptanaylsis tool for the Enigma machine
 
-## Functionnalities
+## Features
 Cryptanalysis:
 - Crypt / decrypt messages
 - Index of coincidence attacks
@@ -57,10 +57,11 @@ Enigma-Cracker > help attributes
         NB: multi processing prevents storing configurations as generators
 ```
 
-Main principle:
+Main idea behind Enigma's cryptanalysis:
 - generate a lot of possible configurations
-- attack configurations to filter them
-- repeat until the correct configuration is the only one left
+- use attacks to filter configurations
+- repeat attacks until the correct configuration is the only one left
+- some attacks allow separate computing of rotors, plugboard and ring settings
 
 ### Demo
 #### Help
